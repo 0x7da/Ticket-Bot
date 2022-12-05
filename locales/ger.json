@@ -4,7 +4,7 @@
       "title": "Ticket Support",
       "description": "__Willkommen im Support__\n\n**Es gibt drei verschiedene Arten von Ticket Gründe. Um ein Ticket zu eröffnen, klicke\n einfach auf den richtigen Button.**\n\n- ``01`` Bewerben\n- ``02`` Partnerschaft\n- ``03`` Beschwerde\n\nMissbrauch wird mit einem Mute / Bann bestraft.",
       "footer": {
-        "text": "Host reqinzz#1090",
+        "text": "translator ExothDE#1090",
         "iconUrl": "https://www.kindpng.com/picc/m/27-278375_transparent-ticket-png-ticket-icon-png-download.png"
       }
     },
@@ -12,7 +12,7 @@
       "title": "Ticket Support",
       "description": "Das Team wird sich in kürze bei dir melden!",
       "footer": {
-        "text": "Host reqinzz#1090",
+        "text": "translator ExothDE#1090",
         "iconUrl": "https://www.kindpng.com/picc/m/27-278375_transparent-ticket-png-ticket-icon-png-download.png"
       }
     },
@@ -24,7 +24,7 @@
       "title": "Ticket schließen",
       "description": "Das Ticket n°TICKETCOUNT wurde geschlossen von CLOSERNAME mit dem folgenden Grund: `grund`\n\nhier ist dein Transskript von das Ticket: TRANSCRIPTURL",
       "footer": {
-        "text": "Host reqinzz#1090",
+        "text": "translator ExothDE#1090",
         "iconUrl": "https://www.kindpng.com/picc/m/27-278375_transparent-ticket-png-ticket-icon-png-download.png"
       }
     }
