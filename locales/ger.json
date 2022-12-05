@@ -1,0 +1,71 @@
+{
+  "embeds": {
+    "openTicket": {
+      "title": "Ticket Support",
+      "description": "__Willkommen im Support__\n\n**Es gibt drei verschiedene Arten von Ticket Gründe. Um ein Ticket zu eröffnen, klicke\n einfach auf den richtigen Button.**\n\n- ``01`` Bewerben\n- ``02`` Partnerschaft\n- ``03`` Beschwerde\n\nMissbrauch wird mit einem Mute / Bann bestraft.",
+      "footer": {
+        "text": "Host reqinzz#1090",
+        "iconUrl": "https://www.kindpng.com/picc/m/27-278375_transparent-ticket-png-ticket-icon-png-download.png"
+      }
+    },
+    "ticketOpened": {
+      "title": "Ticket Support",
+      "description": "Das Team wird sich in kürze bei dir melden!",
+      "footer": {
+        "text": "Host reqinzz#1090",
+        "iconUrl": "https://www.kindpng.com/picc/m/27-278375_transparent-ticket-png-ticket-icon-png-download.png"
+      }
+    },
+    "ticketClosed": {
+      "title": "Ticket schließen",
+      "description": "Das Ticket wurde geschlossen von CLOSERNAME mit dem folgenden Grund: `grund`"
+    },
+    "ticketClosedDM": {
+      "title": "Ticket schließen",
+      "description": "Das Ticket n°TICKETCOUNT wurde geschlossen von CLOSERNAME mit dem folgenden Grund: `grund`\n\nhier ist dein Transskript von das Ticket: TRANSCRIPTURL",
+      "footer": {
+        "text": "Host reqinzz#1090",
+        "iconUrl": "https://www.kindpng.com/picc/m/27-278375_transparent-ticket-png-ticket-icon-png-download.png"
+      }
+    }
+  },
+  "modals": {
+    "grundTicketOpen": {
+      "title": "Eröffne ein Ticket",
+      "label": "Das Grund für das Ticket",
+      "placeholder": "Bitte schreibe uns dein Anliegen."
+    },
+    "grundTicketClose": {
+      "title": "Ticket scließen",
+      "label": "Der Grund zum schließen des Tickets",
+      "placeholder": "Bitte schreibe uns dein Anliegen zum schließen."
+    }
+  },
+  "buttons": {
+    "close": {
+      "label": "Ticket schließen",
+      "emoji": "🔒"
+    },
+    "claim": {
+      "label": "Beanspruchen",
+      "emoji": "🙋"
+    }
+  },
+  "ticketOpenedMessage": "Ticket geöffnet! TICKETCHANNEL",
+  "ticketOnlyClaimableByStaff": "Das Ticket kann nur von Teammitgliedern Beansprucht werden!",
+  "ticketAlreadyClaimed": "Das Ticket ist bereits Beansprucht!",
+  "ticketClaimedMessage": "> Ticket wurde Beansprucht von USER",
+  "ticketOnlyClosableByStaff": "Nur Teammitgliedern können das Ticket schließen!",
+  "ticketAlreadyClosed": "Das Ticket ist bereits geschlossen!",
+  "ticketCreatingTranscript": "> Erstelle Transskript...",
+  "ticketTranscriptCreated": "> Transskript erstellt! TRANSCRIPTURL",
+  "ticketLimitReached": "You can only have TICKETLIMIT tickets opened at the same time!",
+
+  "other": {
+    "openTicketButtonMSG": "Erstelle ein Ticket",
+    "deleteTicketButtonMSG": "Ticket löschen",
+    "selectTicketTypePlaceholder": "Wähle ein Ticket Grund",
+    "claimedBy": "**Beansprucht von**: USER",
+    "nogrundGiven": "Kein Grund angegeben"
+  }
+}
