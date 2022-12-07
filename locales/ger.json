@@ -2,43 +2,43 @@
   "embeds": {
     "openTicket": {
       "title": "Ticket Support",
-      "description": "__Willkommen im Support__\n\n**Es gibt drei verschiedene Arten von Ticket Gründe. Um ein Ticket zu eröffnen, klicke\n einfach auf den richtigen Button.**\n\n- ``01`` Bewerben\n- ``02`` Partnerschaft\n- ``03`` Beschwerde\n\nMissbrauch wird mit einem Mute / Bann bestraft.",
+      "description": "__Willkommen im Support von Guardians Firma__\n\n**Es gibt drei verschiedene Arten von Tickets. Um ein Ticket zu eröffnen, klicke einfach auf den richtigen Button.**\n\n**- 01** Farmauftrag\n**- 02** Bestellungen\n**- 03** Bewerben",
       "footer": {
-        "text": "translator ExothDE#1090",
-        "iconUrl": "https://www.kindpng.com/picc/m/27-278375_transparent-ticket-png-ticket-icon-png-download.png"
+        "text": "is.gd/ticketsystem",
+        "iconUrl": ""
       }
     },
     "ticketOpened": {
       "title": "Ticket Support",
-      "description": "Das Team wird sich in kürze bei dir melden!",
+      "description": "Ein Ticket-Supporter wird sich in kürze bei dir melden",
       "footer": {
-        "text": "translator ExothDE#1090",
-        "iconUrl": "https://www.kindpng.com/picc/m/27-278375_transparent-ticket-png-ticket-icon-png-download.png"
+        "text": "is.gd/ticketsystem",
+        "iconUrl": ""
       }
     },
     "ticketClosed": {
-      "title": "Ticket schließen",
-      "description": "Das Ticket wurde geschlossen von CLOSERNAME mit dem folgenden Grund: `grund`"
+      "title": "Ticket geschlossen",
+      "description": "Das Ticket wurde geschlossen von CLOSERNAME mit dem Folgenden Grund: `REASON`"
     },
     "ticketClosedDM": {
-      "title": "Ticket schließen",
-      "description": "Das Ticket n°TICKETCOUNT wurde geschlossen von CLOSERNAME mit dem folgenden Grund: `grund`\n\nhier ist dein Transskript von das Ticket: TRANSCRIPTURL",
+      "title": "Ticket geschlossen",
+      "description": "Das Ticket n°TICKETCOUNT wurde geschlossen von CLOSERNAME mit dem Folgenden Grund: `REASON`\n\nhier ist das Folgende Transkript URL: TRANSCRIPTURL",
       "footer": {
-        "text": "translator ExothDE#1090",
-        "iconUrl": "https://www.kindpng.com/picc/m/27-278375_transparent-ticket-png-ticket-icon-png-download.png"
+        "text": "is.gd/ticketsystem",
+        "iconUrl": ""
       }
     }
   },
   "modals": {
-    "grundTicketOpen": {
-      "title": "Eröffne ein Ticket",
-      "label": "Das Grund für das Ticket",
-      "placeholder": "Bitte schreibe uns dein Anliegen."
+    "reasonTicketOpen": {
+      "title": "Ticket erstellen",
+      "label": "Der Grund für dein Ticket",
+      "placeholder": "Bitte schildere dein Ticket Grund"
     },
-    "grundTicketClose": {
-      "title": "Ticket scließen",
-      "label": "Der Grund zum schließen des Tickets",
-      "placeholder": "Bitte schreibe uns dein Anliegen zum schließen."
+    "reasonTicketClose": {
+      "title": "Ticket schließen",
+      "label": "Dein Grund zum Ticket schließen",
+      "placeholder": "Schildere dein schließungs Grund"
     }
   },
   "buttons": {
@@ -47,25 +47,25 @@
       "emoji": "🔒"
     },
     "claim": {
-      "label": "Beanspruchen",
+      "label": "beanspruchen",
       "emoji": "🙋"
     }
   },
   "ticketOpenedMessage": "Ticket geöffnet! TICKETCHANNEL",
-  "ticketOnlyClaimableByStaff": "Das Ticket kann nur von Teammitgliedern Beansprucht werden!",
-  "ticketAlreadyClaimed": "Das Ticket ist bereits Beansprucht!",
-  "ticketClaimedMessage": "> Ticket wurde Beansprucht von USER",
-  "ticketOnlyClosableByStaff": "Nur Teammitgliedern können das Ticket schließen!",
+  "ticketOnlyClaimableByStaff": "Das Ticket kann nur ein Ticket Supporter schließen!",
+  "ticketAlreadyClaimed": "Das Ticket ist bereits beansprucht",
+  "ticketClaimedMessage": "> Ticket beansprucht von USER",
+  "ticketOnlyClosableByStaff": "Das Ticket können nur Ticket Supporter schließen",
   "ticketAlreadyClosed": "Das Ticket ist bereits geschlossen!",
-  "ticketCreatingTranscript": "> Erstelle Transskript...",
-  "ticketTranscriptCreated": "> Transskript erstellt! TRANSCRIPTURL",
-  "ticketLimitReached": "You can only have TICKETLIMIT tickets opened at the same time!",
+  "ticketCreatingTranscript": "> erstelle transcript...",
+  "ticketTranscriptCreated": "> Transcript erstellt! TRANSCRIPTURL",
+  "ticketLimitReached": "Du kannst zurzeit nur TICKETLIMIT tickets erstellen!",
 
   "other": {
     "openTicketButtonMSG": "Erstelle ein Ticket",
-    "deleteTicketButtonMSG": "Ticket löschen",
-    "selectTicketTypePlaceholder": "Wähle ein Ticket Grund",
-    "claimedBy": "**Beansprucht von**: USER",
-    "nogrundGiven": "Kein Grund angegeben"
+    "deleteTicketButtonMSG": "ticket löschen",
+    "selectTicketTypePlaceholder": "Wähle ein Ticket Label",
+    "claimedBy": "**beansprucht von**: USER",
+    "noReasonGiven": "Kein Grund gegeben"
   }
 }
