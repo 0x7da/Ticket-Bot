@@ -1,7 +1,7 @@
 {
 	"embeds": {
 		"openTicket": {
-			"title": "Öffne ein Ticket",
+			"title": "Ticket erstellen",
 			"description": "Klicke auf den Button, um ein Ticket zu öffnen",
 			"footer": {
 				"text": "ticket.pm"
@@ -9,7 +9,7 @@
 		},
 		"ticketOpened": {
 			"title": "Ticket CATEGORYNAME",
-			"description": "Ein Teammitglied wird sich in Kürze um dich kümmern!",
+			"description": "Ein Teammitglied wurde benachrichtigt.",
 			"footer": {
 				"text": "ticket.pm"
 			}
@@ -30,7 +30,7 @@
 		"reasonTicketOpen": {
 			"title": "Ticket öffnen",
 			"label": "Grund des Tickets",
-			"placeholder": "Bitte gib einen Grund für das Öffnen des Tickets an."
+			"placeholder": "Bitte gib einen Grund für das Erstellen des Tickets an."
 		},
 		"reasonTicketClose": {
 			"title": "Ticket schließen",
@@ -48,9 +48,9 @@
 			"emoji": "🙋"
 		}
 	},
-	"ticketOpenedMessage": "Ticket geöffnet! TICKETCHANNEL",
+	"ticketOpenedMessage": "Ticket erstellt! TICKETCHANNEL",
 	"ticketOnlyClaimableByStaff": "Das Ticket kann nur von Teammitgliedern beansprucht werden!",
-	"ticketAlreadyClaimed": "Dieses Ticket wurde schon beansprucht!",
+	"ticketAlreadyClaimed": "Dieses Ticket wurde bereits beansprucht!",
 	"ticketClaimedMessage": "> Ticket von USER beansprucht",
 	"ticketOnlyClosableByStaff": "Das Ticket kann nur von Teammitgliedern geschlossen werden!",
 	"ticketAlreadyClosed": "Dieses Ticket wurde schon geschlossen!",
@@ -59,7 +59,7 @@
 	"ticketLimitReached": "Du kannst nur TICKETLIMIT Tickets gleichzeitig offen haben",
 
 	"other": {
-		"openTicketButtonMSG": "Öffne ein Ticket",
+		"openTicketButtonMSG": "Erstell ein Ticket",
 		"deleteTicketButtonMSG": "Ticket löschen",
 		"selectTicketTypePlaceholder": "Wähle einen Typ",
 		"claimedBy": "**Beansprucht von**: USER",
